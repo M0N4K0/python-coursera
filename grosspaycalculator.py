@@ -6,5 +6,5 @@ print 'Thanks!'
 rate = float(raw_input('What is your hourly rate?\n'))
 print 'Thanks! I will calculate the results now.'
 pay_week = hours_week * rate
-print 'Your weekly gross pay is: ' + str(pay_week)
+print 'Your weekly gross pay is:',str(pay_week)
 
